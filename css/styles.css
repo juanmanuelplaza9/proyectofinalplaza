@@ -1,0 +1,79 @@
+body{
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+}
+
+.custom-nav .nav-link {
+    font-size: 30px;
+    color: white;
+}
+
+.custom-nav .nav-link:focus,
+.custom-nav .nav-link:hover {
+    background-color: transparent;
+    color:rgba(0, 89, 255, 0.822)
+}
+
+.carousel-item img {
+    height: 370px; /* Cambia la altura para hacer el carrusel más pequeño */
+    object-fit: cover; /* Asegura que la imagen mantenga su proporción */
+}
+
+.carousel {
+    width: 80%; /* Ajusta el ancho del carrusel */
+    margin: 0 auto; /* Centra el carrusel */
+}
+
+.welcome-text {
+    font-size: 3rem; /* Tamaño de letra grande */
+    font-family: "Ubuntu", sans-serif;
+    margin: 1px 1; /* Espacio superior e inferior */
+    color: #ffffff; /* Color del texto */
+}
+
+.container {
+    max-width: 100%; /* Se adapta al ancho de la pantalla */
+    padding: 18px; /* Espacio interno */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+footer {
+    background-color: rgb(1, 13, 82);
+    padding: 1px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.footer-icons a {
+    text-decoration: none;
+}
+
+.footer-icons a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.footer-icons a img:hover {
+    transform: scale(1.2);
+}
+
+.copyright {
+    color: white;
+}
+
+.form-container {
+    color: white;
+    justify-content: center;
+}
